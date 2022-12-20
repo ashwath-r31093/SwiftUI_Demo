@@ -11,6 +11,8 @@
 		F83811E229519B2B007F035C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F83811E129519B2B007F035C /* ContentView.swift */; };
 		F83811E429519B2D007F035C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F83811E329519B2D007F035C /* Assets.xcassets */; };
 		F83811E729519B2D007F035C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F83811E629519B2D007F035C /* Preview Assets.xcassets */; };
+		F83811EE29519B98007F035C /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F83811ED29519B98007F035C /* ViewModel.swift */; };
+		F83811F029519BF7007F035C /* PeopleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F83811EF29519BF7007F035C /* PeopleModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		F83811E129519B2B007F035C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F83811E329519B2D007F035C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F83811E629519B2D007F035C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F83811ED29519B98007F035C /* ViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		F83811EF29519BF7007F035C /* PeopleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,8 +57,10 @@
 			children = (
 				F83811DF29519B2B007F035C /* SwiftUI_DemoApp.swift */,
 				F83811E129519B2B007F035C /* ContentView.swift */,
+				F83811ED29519B98007F035C /* ViewModel.swift */,
 				F83811E329519B2D007F035C /* Assets.xcassets */,
 				F83811E529519B2D007F035C /* Preview Content */,
+				F83811EF29519BF7007F035C /* PeopleModel.swift */,
 			);
 			path = SwiftUI_Demo;
 			sourceTree = "<group>";
@@ -138,6 +144,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F83811E229519B2B007F035C /* ContentView.swift in Sources */,
+				F83811EE29519B98007F035C /* ViewModel.swift in Sources */,
+				F83811F029519BF7007F035C /* PeopleModel.swift in Sources */,
 				F83811E029519B2B007F035C /* SwiftUI_DemoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
